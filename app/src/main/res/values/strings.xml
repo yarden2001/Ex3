@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Ex3</string>
+    <string name="op1">opreand1:</string>
+    <string name="op2">opreand2:</string>
+    <string name="btplus">+</string>
+    <string name="btminus">-</string>
+    <string name="btmul">*</string>
+    <string name="btdiv">/</string>
+    <string name="ew">=</string>
+</resources>
