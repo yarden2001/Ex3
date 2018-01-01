@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.amram.ex3.MainActivity">
+    tools:context="com.example.madaim.ex3.MainActivity">
 
 
     <TextView
@@ -48,6 +48,7 @@
         android:layout_toStartOf="@+id/btMulti" />
 
     <Button
+        android:enabled="false"
         android:id="@+id/btPlus"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -56,6 +57,7 @@
         android:layout_alignBottom="@+id/btMinus"
         android:layout_toStartOf="@+id/editText2" />
     <Button
+        android:enabled="false"
         android:id="@+id/btMinus"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -65,6 +67,7 @@
         android:layout_below="@+id/editText"
         android:layout_alignStart="@+id/textView" />
     <Button
+        android:enabled="false"
         android:id="@+id/btMulti"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -73,6 +76,7 @@
         android:layout_alignBottom="@+id/btDiv1"
         android:layout_toEndOf="@+id/editText" />
     <Button
+        android:enabled="false"
         android:id="@+id/btDiv1"
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -82,7 +86,7 @@
         android:layout_alignStart="@+id/editText"
         android:layout_marginStart="33dp" />
 
-    <view
+    <View
         android:layout_width="300dp"
         android:layout_height="5dp"
         android:layout_marginTop="21dp"
